@@ -10,24 +10,36 @@ struct ContentView: View {
         } label: {
             Text("Multiply")
         }
+        .foregroundColor(.cyan)
+        .clipShape(Capsule())
         Button {
          
         } label: {
             Text("Add")
         }
+        .foregroundColor(.cyan)
+        .clipShape(Capsule())
         Button {
         
         } label: {
             Text("Subtract")
         }
+        .foregroundColor(.cyan)
+        .clipShape(Capsule())
         Button {
          
         } label: {
             Text("Divide")
         }
+        .foregroundColor(.cyan)
+        .clipShape(Capsule())
         
         TextField("Integer1", value: $integer1, format: .number)
+            .textFieldStyle(.roundedBorder)
+            .font(.headline)
         TextField("Integer2", value: $integer2, format: .number)
+            .textFieldStyle(.roundedBorder)
+            .font(.headline)
 
     }
 }
