@@ -6,7 +6,7 @@ struct ContentView: View {
     @State var integer2: Int = 0
     var body: some View {
         Button {
-            
+         Number1 = integer1 * integer2
         } label: {
             Text("Multiply")
         }
