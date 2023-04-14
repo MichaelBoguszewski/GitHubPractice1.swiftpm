@@ -13,21 +13,21 @@ struct ContentView: View {
         .foregroundColor(.cyan)
         .clipShape(Capsule())
         Button {
-         
+         Number1 = integer1 + integer2
         } label: {
             Text("Add")
         }
         .foregroundColor(.cyan)
         .clipShape(Capsule())
         Button {
-        
+        Number1 = integer1 - integer2
         } label: {
             Text("Subtract")
         }
         .foregroundColor(.cyan)
         .clipShape(Capsule())
         Button {
-         
+         Number1 = integer1 / integer2
         } label: {
             Text("Divide")
         }
