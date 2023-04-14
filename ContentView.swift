@@ -40,7 +40,7 @@ struct ContentView: View {
         TextField("Integer2", value: $integer2, format: .number)
             .textFieldStyle(.roundedBorder)
             .font(.headline)
-        Text("\(number1)")
+        Text("\(Number1)")
 
     }
 }
