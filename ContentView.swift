@@ -10,6 +10,8 @@ struct ContentView: View {
         } label: {
             Text("Multiply")
         }
+        TextField("Integer1", value: $integer1, format: .number)
+        TextField("Integer2", value: $integer2, format: .number)
 
     }
 }
